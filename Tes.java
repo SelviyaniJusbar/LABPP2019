@@ -1,7 +1,7 @@
 public class Tabungan {
 double saldo;
 String nama;
-double jml;
+double jomlo;
  
 Tabungan (double jumlah, String nama)
 {
