@@ -11,3 +11,5 @@ Format:
 - Berikan comment pada file java, Nama dan NIM *opsional
   (contoh: "//Nama: Fulan
             //NIM : H0711710xx")
+
+Note: Pengguna GNU/Linux / Macintosh silakan menyesuaikan dengan langkah kerja di Windows
