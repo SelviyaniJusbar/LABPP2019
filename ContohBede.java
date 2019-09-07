@@ -1,7 +1,10 @@
-public class Tabungan {
+//Nama: Fulan
+//NIM: H0711710xx
+
+public class ContohBede {
 double saldo;
 String nama;
-double jomlo;
+double jumlah;
  
 Tabungan (double jumlah, String nama)
 {
