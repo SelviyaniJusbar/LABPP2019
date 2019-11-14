@@ -12,14 +12,20 @@ class AngkaRandom {
     }
     public static String generateSerial (int n, int m) {
         String str = "";
-        String tes = " - ";
+        String tes = "-";
         Random angka = new Random();
 
         for (int i = 0 ; i < n ; i++) {
             for (int j = 0 ; j < m ; j++) {
                 int a = angka.nextInt(10);
+                //str += String.valueOf(a);
                 str+=a;
             }
+            // if (i == n) {
+            //     str += " ";
+            // } else {
+            //     str += "-";
+            // }
             if (i < n-1) {
                 str += tes;
             }

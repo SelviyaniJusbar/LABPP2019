@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class kodeUnik {
+class KodeUnik {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String inputan = sc.nextLine(); // kalimat inputan
