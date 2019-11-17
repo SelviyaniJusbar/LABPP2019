@@ -7,33 +7,23 @@ class GanjilGenap {
         System.out.print("Nilai akhir = ");
         int y = sc.nextInt();
             
-        if (x<y) {
-            for (int i = x ; i <= y ; i++) {
-                if (i %2==0 && i>0) {
-                    System.out.println(i + " genap positif");
-                } else if (i %2==0 && i<0) {
-                    System.out.println(i + " genap negatif");
-                } else if (i %2!=0 && i>0) {
-                    System.out.println(i + " ganjil positif");
-                } else if (i %2!=0 && i<0) {
-                    System.out.println(i + " ganjil negatif");
-                } else {
-                    System.out.println(i + " nol");
-                }
-            }
-        } else {
-            for (int i = y ; i <= x ; i++) {
-                if (i %2==0 && i>0) {
-                    System.out.println(i + " genap positif");
-                } else if (i %2==0 && i<0) {
-                    System.out.println(i + " genap negatif");
-                } else if (i %2!=0 && i>0) {
-                    System.out.println(i + " ganjil positif");
-                } else if (i %2!=0 && i<0) {
-                    System.out.println(i + " ganjil negatif");
-                } else {
-                    System.out.println(i + " nol");
-                }
+        if (x > y) {
+            int a = y;
+            y = x;
+            x = a;
+        }
+
+		for (int i = x; i <= y; i++) {
+            if (i % 2 == 0 && i > 0) {
+                System.out.println(i + " genap positif");
+            } else if (i % 2 == 0 && i < 0) {
+                System.out.println(i + " genap negatif");
+            } else if (i % 2 != 0 && i > 0) {
+                System.out.println(i + " ganjil positif");
+            } else if (i % 2 != 0 && i < 0) {
+                System.out.println(i + " ganjil negatif");
+            } else {
+                System.out.println(i + " nol");
             }
         }
         sc.close();
