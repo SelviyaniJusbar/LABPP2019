@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class Table {
+public class TugasTiga{
     static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args) {
         FileWriter file = null;
