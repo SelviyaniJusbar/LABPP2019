@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.Scanner;
 
-public class DuplicateFile{
+public class TugasSatu{
     static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
         
