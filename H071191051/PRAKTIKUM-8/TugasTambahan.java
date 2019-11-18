@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.io.*;
 
-public class MyFileManager{
+public class TugasTambahan{
     static Scanner userInput = new Scanner(System.in);
     public static void main(String[] args) throws IOException {
         boolean kondisi = true;
